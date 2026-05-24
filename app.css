@@ -1,0 +1,50 @@
+/* app.css */
+:root {
+    --primary-color: #00f2fe;
+    --secondary-color: #4facfe;
+    --bg-color: #0e1117;
+    --text-color: #ffffff;
+}
+
+.stApp {
+    background-color: var(--bg-color);
+}
+
+.main-title {
+    background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.stButton>button {
+    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 2rem;
+    transition: transform 0.2s;
+}
+
+.stButton>button:hover {
+    transform: scale(1.05);
+}
+
+.metric-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.result-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    margin-top: 1rem;
+}
